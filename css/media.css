@@ -72,6 +72,11 @@
         margin: 2rem;
         font-size: 2rem;
     }
+    
+    .home h1
+    {
+        padding-top: 13px;
+    }
 }
 
 @media(max-width: 450px)
