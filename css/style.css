@@ -332,6 +332,7 @@ section
 
 .home h1
 {
+    padding-top: 10px;
     font-size: 7.5rem;
     color: var(--black);
 }
