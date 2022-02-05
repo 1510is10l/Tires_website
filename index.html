@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كفراتي</title>
+
+    <!-- Swiper cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+    <!-- font awsome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+</head>
+<body>
+    
+    <!-- بداية رأس الصفحة -->
+
+    <header class="header">
+
+        <div id="menu_btn" class="fas fa-bars"></div>
+
+        <a href="#home" class="logo"><img src="./images/logo MyTires.png" alt=""> </a>
+
+        <nav class="navbar">
+
+            <a href="#home">الرئيسية</a>
+            <a href="#tires">الكفرات</a>
+            <!-- <a href="#home">خدماتنا</a> -->
+            <a href="#reviews">التقييم</a>
+            <a href="#contact">تواصل معنا</a>
+
+        </nav>
+
+        <div id="login_btn">
+            <button class="btn">
+                تسجيل الدخول
+            </button>
+
+            <i class="far fa-user"></i>
+        </div>
+
+        <div id="signUp_btn">
+            <button class="btn signUp_btn">
+               إنشاء الحساب
+            </button>
+
+        </div>
+    </header>
+
+    <!-- نهاية رأس الصفحة -->
+
+    <!-- نموذج تسجيل الدخول -->
+
+    <div class="login_form_container">
+
+        <span class="fas fa-times" id="close_login_form"></span>
+
+        <form action="">
+            <h3>تسجيل الدخول</h3>
+
+            <input type="email" placeholder="أدخل بريدك الإلكتروني" class="box" required/>
+            <input type="password" placeholder="أدخل كلمة المرور" class="box" required/>
+
+            <p>
+                نسيت كلمة المورو؟ <a href="#">أضغط هنا</a>
+            </p>
+
+            <input type="submit" value="تسجيل الدخول" class="btn" />
+
+            <p>
+                لا تملك أي حساب؟ <a href="#"> إنشئ حسابك الآن </a>
+            </p>
+        </form>
+    </div>
+
+        <!-- نموذج تسجيل الدخول -->
+
+        <div class="signUp_form_container">
+
+            <span class="fas fa-times" id="close_signUp_form"></span>
+    
+            <form action="">
+                <h3>إنشاء الحساب</h3>
+    
+                <input type="text" name="firstName" placeholder="أدخل الأسم الأول" class="box" required/>
+                <input type="text" name="lastName" placeholder="أدخل الأسم الأخير" class="box" required/>
+
+                <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" class="box" required/>
+                <input type="password" name="password" placeholder="أدخل كلمة المرور" class="box" required />
+    
+                <input type="submit" value="إنشاء الحساب" class="btn" />
+    
+                <p>
+                    لديك حساب؟ <a href="#"> سجل دخولك </a>
+                </p>
+            </form>
+        </div>    
+
+
+    <!-- بداية جزء الرئيسية -->
+
+    <section class="home" id="home">
+
+        <h1 class="home_parallax" data-speed="-2">القى لك كفر</h1>
+        <img src="./images/home_1.png"  class="home_parallax" data-speed="5" alt="" />
+        <a href="#" class="btn home_parallax" data-speed="7"> أبحث عن الكفرات </a>
+    </section>
+
+    <!-- نهاية جزء الرئيسية -->
+
+
+    <!-- بداية جزء الكفرات -->
+
+    <section class="tires" id="tires">
+        <h1 class="heading"> أشهر
+            <span>الكفرات</span>
+        </h1>
+
+        <div class="swiper tires_slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_1.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_2.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_3.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_4.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_5.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/tires_6.png" alt="" />
+                    <div class="content">
+                        <h3>كفر جديد</h3>
+                        <div class="price">
+                            <span>
+                                السعر:
+                            </span>
+                            300 ريال
+                        </div>
+                         <p>
+                            جديد
+                            <span class="fas fa-circle"></span> 2022
+                         </p>
+                         <a href="#" class="btn">أطلب الآن</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!-- نهاية جزء الكفرات -->
+
+
+    <!-- بداية جزء النشرة الأخبارية -->
+
+    <section class="newsletter">
+
+        <h3>أشترك للأطلاع على آخر التحديثات </h3>
+        <p>
+            لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت
+        </p>
+
+        <form action="">
+
+            <input type="email" placeholder="أدخل بريدك الإلكتروني" name="email" required/>
+            <input type="submit" value="الأشتراك" name="subscribe" class="subscribe" />
+        </form>
+    </section>
+
+    <!-- نهاية جزء النشرة الأخبارية -->
+
+
+    <!-- بداية جزء أراء العملاء -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> <span>تقييم</span> العملاء</h1>
+
+        <div class="swiper reviews_slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic-1.png" alt="" />
+
+                    <div class="content">
+                        <p>
+                            لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم
+                        </p>
+
+                        <h3>فيصل العنزي</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic-3.png" alt="" />
+
+                    <div class="content">
+                        <p>
+                            لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم
+                        </p>
+
+                        <h3>مهند</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic-4.jpg" alt="" />
+
+                    <div class="content">
+                        <p>
+                            لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم
+                        </p>
+
+                        <h3>عبدالرحمن</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="./images/pic-5.png" alt="" />
+
+                    <div class="content">
+                        <p>
+                            لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+
+أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم
+                        </p>
+
+                        <h3>سعود</h3>
+
+                        <div class="stars">
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!-- بداية جزء أراء العملاء -->
+
+
+    <!-- بداية جزء تواصل معنا -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>تواصل</span> معنا </h1>
+
+        <div class="row">
+    
+            <form action="">
+
+                <h3>أبقى على تواصل</h3>
+
+                <input type="text" name="name" placeholder="أدخل أسمك" class="box" required/>
+                <input type="email" name="email" placeholder="أدخل بريدك الإلكتروني" class="box" required/>
+
+                <textarea name="message" placeholder="محتوى الرسالة" class="box" id="" cols="30" rows="10" required></textarea>
+
+                <input type="submit" value="إرسال" class="btn"/>
+            </form>
+    
+        </div>
+    </section>
+  
+    <!-- نهاية جزء تواصل معنا -->
+
+    <!-- بداية جزء أسفل الصفحة -->
+
+    <footer class="footer">
+
+        <div class="box_container">
+
+            <div class="box">
+                <h3>فروعنا</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> السعودية, الرياض </a>
+            </div>
+
+            <div class="box">
+                <h3>روابط سريعة</h3>
+                <a href="#home"> <i class="fas fa-arrow-left"></i> الرئيسية </a>
+                <a href="#tires"> <i class="fas fa-arrow-left"></i> الكفرات </a>
+                <a href="#reviwes"> <i class="fas fa-arrow-left"></i> التقييم </a>
+                <a href="#contact"> <i class="fas fa-arrow-left"></i> تواصل معنا </a>
+            </div>
+
+            <div class="box">
+                <h3>روابط سريعة</h3>
+                <a href="#home"> <i class="fas fa-phone"></i> 966+ 43344422 </a>
+                <a href="#home"> <i class="fas fa-envelope"></i> mohannad@gmail.com </a>
+
+            </div>
+
+            <div class="box">
+                <h3>حساباتنا </h3>
+                <a href="#home"> <i class="fab fa-twitter"></i> تويتر </a>
+                <a href="#home"> <i class="fab fa-instagram"></i> أنستغرام </a>
+            </div>
+
+        </div>
+
+        <div class="credit">
+            جميع الحقوق محفوظة | <span><a href="#home">كفراتي</a></span> &copy;
+        </div>
+    </footer>
+
+    <!-- نهاية جزء أسفل الصفحة -->
+
+    <!-- Swiper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js link -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
